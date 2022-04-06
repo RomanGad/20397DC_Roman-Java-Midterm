@@ -1,6 +1,11 @@
 package math_problems;
 
+import com.mongodb.client.model.geojson.CoordinateReferenceSystem;
+import com.mysql.cj.x.protobuf.MysqlxDatatypes;
+
 public class Pattern {
+
+
 
     /** INSTRUCTIONS
      * Read the numbers below, identify the pattern, and then implement the logic from this pattern.
@@ -9,8 +14,22 @@ public class Pattern {
      * 100,99,98,97,96,95,94,93,92,91,90,88,86,84,82,80,78,76,74,72,70,67,64,61,58,55,52,49,46,43,40,36,32...
      *
      */
-
-    public static void main(String[] args) {
-
-    }
+static void printReverseOrder(int D)
+{
+    for (int i = D; i>0; i--)
+        System.out.print(+i + " ");
 }
+    public static void main(String[] args) {
+        int D = 100;
+        printReverseOrder(D);
+    }
+
+}
+
+
+
+
+
+
+
+
