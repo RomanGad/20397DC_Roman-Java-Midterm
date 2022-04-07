@@ -150,25 +150,28 @@ Answer: While loop is used to iterate a part of the program several times when t
         must have to execute the loop at least once because condition is checked after loop body.
 
 What is Enum?
-Answer:
+Answer: An enum is a special "class" that represents a group of constants that is an unchangeable variables, like final variables.
 
 What is Iterator?
-Answer:
+Answer: An iterator is an object that can be used to loop through collections, like ArrayList and HashSet.
 
 Which one will take more memory: an int or Integer? Why?
-Answer:
+Answer:An Integer takes more memory, because an Integer is an object and that takes 128 bit /16 byte, whereas int is  primitive data
+       type which take 32 bits/4bytes.
 
 Why are Strings considered to be immutable in Java?
-Answer:
+Answer: Strings are immutable because we can't change a string after it's created. Instead what happens is a new string is created.
 
 What is constructor chaining in Java?
-Answer:
+Answer: Constructor Chaining is the process of calling one constructor of a class from another
+        constructor of the same class or another class using the current object of the class.
 
 The difference between Serial and Parallel Garbage Collector?
-Answer:
+Answer: Serial and parallel garbage collector is that serial garbage collector uses a single thread for garbage collection process while
+        Parallel garbage collector uses multiple threads for the garbage collection.
 
 What does JIT stands for?
-Answer:
+Answer: Just-In-Time.
 
 Explain the process of Java garbage collection?
 Answer:
@@ -180,7 +183,7 @@ What is the difference between stack and heap in Java?
 Answer:
 
 What is reflection in Java and why is it useful?
-Answer:
+Answer: Reflection is a process of examining or modifying the run time behavior of a class at run time.
 
 What is multithreading in Java?
 Answer:
