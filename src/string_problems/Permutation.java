@@ -24,7 +24,7 @@ public class Permutation {
     public static void main(String[] args) {
         String tr = "ABC";
         int len = tr.length();
-        System.out.println("ABC= ");
+        System.out.print("ABC= ");
 
         generatePermutation(tr, 0, len);
 
@@ -33,7 +33,7 @@ public class Permutation {
     private static void generatePermutation(String tr, int start, int end) {
 
         if (start == end - 1)
-            System.out.println(tr);
+            System.out.print(tr);
 
         else {
             for (int i = start; i < end; i++) {

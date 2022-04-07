@@ -1,7 +1,7 @@
 package math_problems;
 
-import com.mongodb.client.model.geojson.CoordinateReferenceSystem;
-import com.mysql.cj.x.protobuf.MysqlxDatatypes;
+//import com.mongodb.client.model.geojson.CoordinateReferenceSystem;
+//import com.mysql.cj.x.protobuf.MysqlxDatatypes;
 
 public class Pattern {
 
@@ -17,7 +17,7 @@ public class Pattern {
      static void printReverseOrder(int D)
 {
     for (int i = D; i>0; i--)
-        System.out.print(+i + " ");
+        System.out.print(i + " ");
 }
     public static void main(String[] args) {
         int D = 100;
