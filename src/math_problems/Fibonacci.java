@@ -9,6 +9,19 @@ public class Fibonacci {
      **/
 
     public static void main(String[] args) {
+        int highValue =40;
+        int firstValue = 0;
+        int secondValue = 1;
+
+        System.out.println("Fibonacci of " + highValue +"is :");
+
+        for (int i = 1; i<=highValue; i++){
+            System.out.print(firstValue + " ");
+
+            int totalValue = firstValue + secondValue;
+            firstValue = secondValue;
+            secondValue =totalValue;
+        }
 
     }
 
