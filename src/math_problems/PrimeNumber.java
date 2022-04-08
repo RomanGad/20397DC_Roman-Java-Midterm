@@ -12,10 +12,10 @@ public class PrimeNumber {
 
     public static void main(String[] args) {
 
-        for (int num = 2; num < 100000; num++){
+        for (int num = 2; num < 1000000; num++){
             boolean isPrimeNumber = true;
             for (int i = 2; i < num; i++) {
-                if (num % i == 0) ;{
+                if (num % i == 0) {
                     isPrimeNumber = false;
                     break;
 
