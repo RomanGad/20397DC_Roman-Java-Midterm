@@ -18,22 +18,18 @@ public class Permutation {
 
         return String.valueOf(b);
 
-
     }
-
     public static void main(String[] args) {
         String tr = "ABC";
         int len = tr.length();
         System.out.print("ABC= ");
 
         generatePermutation(tr, 0, len);
-
     }
-
     private static void generatePermutation(String tr, int start, int end) {
 
         if (start == end - 1)
-            System.out.print(tr);
+            System.out.print(tr + " ");
 
         else {
             for (int i = start; i < end; i++) {
