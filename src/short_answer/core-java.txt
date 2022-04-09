@@ -94,7 +94,7 @@ Answer: A constructor initializes an object when it is created. The constructor 
         is created.
 
 Can we have multiple constructors in a class?
-Answer:
+Answer: Yes, A class can have multiple constructors that differ in the number and/or type of their parameters.
 
 If we don't have a constructor declared, what is called during the object creation?
 Answer: Default constructor.
