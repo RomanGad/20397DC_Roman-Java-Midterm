@@ -4,7 +4,7 @@ Why do we need data structure?
 Answer:
 
 What are the various operations that can be performed on different data structures?
-Answer:
+Answer: Insertion, Deletion, Traversal and, Sorting
 
 When would we use data structures in the real world?
 Answer:
@@ -43,38 +43,49 @@ Answer: Big O Notation is a way to measure an algorithm's efficiency. It measure
         function as the input grows. Or in other words, how well does the function scale.
 
 What is the best case to search an element from an array?
-Answer: Sequential search.
+Answer: Sequential search?????
 
 What is the worst case to search an element from an array?
-Answer:
+Answer: Absolute path????
 
 Describe what a tree data structure is?
-Answer:
+Answer: A tree data structure is an algorithm for placing and locating files (called records or keys) in a database.
 
 Describe what a graph data structure is?
-Answer:
+Answer: A graph data structure is a collection of nodes that have data and are connected to other nodes. Let's try to
+        understand this through an example.
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer: HashTable is a data structure type that stores the pairs of keys/values. It stores data in an array format.
+        Out of this, every data value holds a unique index value of its own.
+        is a collection class of Java that is Map-based- used for storing data keys in Value and Key pairs. The HashMap
+        assists in the process of implementation of Java Map interface.
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
+Answer: HashMap in Java works on hashing principles. It is a data structure that allows us to store object and
+        retrieve it in constant time O(1) provided we know the key. HashMap stores the data in the pair of Key and Value.
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer: ArrayIndexOutOfBoundsException is a subclass of IndexOutOfBoundsException, and it implements the Serializable
+        interface and, it occurs whenever we are trying to access any item of an array at an index which is not present
+        in the array. In other words, the index may be negative or exceed the size of an array.
 
 What are the different ways of copying an array into another array?
-Answer:
+Answer: There are mainly different ways of copying an array into another array. Those are Manually, Array.copyOf(),
+        System.arraycopy() and Object.clone().
 
 What is DFS and BFS?
-Answer:
-
+Answer: DFS is an algorithm for finding or traversing graphs or trees in depth-ward direction. The execution of the
+        algorithm begins at the root node and explores each branch before backtracking.
+        BFS is an algorithm that is used to graph data or searching tree or traversing structures.
 What is Recursion?
-Answer:
+Answer: Recursion is the process of defining a problem (or the solution to a problem) in terms of (a simpler version of)
+        itself.
 
 What are linear and non-linear data Structures?
-Answer:
-
+Answer: A Linear data structure have data elements arranged in sequential manner and each member element is connected
+        to its previous and next element.
+        Nonlinear data structures are those data structures in which data items are not arranged in a sequence.
 
 Outline different sorting algorithms and their time complexities:
 
