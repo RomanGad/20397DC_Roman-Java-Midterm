@@ -2,7 +2,7 @@ package string_problems;
 
 public class Palindrome {
 
-    /*
+    /**
       A palindrome is a word that can be reversed, and still remain the same.
       Example: MOM, DAD, MADAM, RACECAR
 
@@ -10,5 +10,26 @@ public class Palindrome {
      */
 
     // Implement here
+    public static void main(String[] args) {
+        String palWord = "java";
+
+        String remain = " ";
+
+        int palWordLength= palWord.length();
+
+           for (int i = (palWordLength -1); i>=0; i--)
+               remain = remain + palWord.charAt(i);
+
+        if (palWord.equals(remain.toLowerCase())) {
+            System.out.println(palWord + " is a palindrome");
+        }
+        else {
+            System.out.println(palWord + " is not a palindrome");
+
+        }
+    }
+
+
 
 }
+
